@@ -1,0 +1,45 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "cat ninja fact",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "CatFactIntent",
+          "slots": [],
+          "samples": [
+            "another cat ninja fact",
+            "tell me another one",
+            "cat fact from ninja fact",
+            "cat ninja fact",
+            "open cat ninja fact",
+            "any cat fact",
+            "give me a cat fact",
+            "tell a fact"
+          ]
+        }
+      ],
+      "types": []
+    }
+  },
+  "version": "5"
+}
